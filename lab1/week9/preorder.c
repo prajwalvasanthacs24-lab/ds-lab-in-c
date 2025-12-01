@@ -25,7 +25,9 @@ void preorder(struct node* root){
 int main(){
     struct node* root = newNode(1);
     root->left = newNode(2);
+     root->left = newNode(6);
     root->right = newNode(3);
+     root->right = newNode(7);
 
     printf("Preorder: ");
     preorder(root);
